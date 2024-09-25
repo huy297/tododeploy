@@ -1,0 +1,27 @@
+.filter-panel {
+    background-color: white;
+}
+
+.filter-item {
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+}
+
+.filter-item.selected {
+    background-color: purple;
+    color: white;
+}
+
+.search-text {
+    width: 100%;
+}
